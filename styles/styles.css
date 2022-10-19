@@ -1,0 +1,111 @@
+/*
+COLORS
+
+Naranja
+#E95A27
+
+Azul
+#3384C6
+
+Negro
+#1D1D1B
+
+Blanco
+#F2F2F2
+
+Gris
+#666666
+
+Gris claro
+#B3B3B3
+
+
+*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+* {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    box-sizing: border-box;
+    background-color: #F2F2F2;
+    color: #1D1D1B;
+}
+
+.colorNaranja {
+    color: #E95A27 !important;
+}
+.colorAzul {
+    color: #3384C6 !important;
+}
+.colorNegro {
+    color: #1D1D1B !important;
+}
+.colorBlanco {
+    color: #F2F2F2 !important;
+}
+.colorGris {
+    color: #666666 !important;
+}
+.colorGrisClaro {
+    color: #B3B3B3 !important;
+}
+.backgNaranja {
+    background-color: #E95A27 !important;
+}
+.backgAzul {
+    background-color: #3384C6 !important;
+}
+.backgNegro {
+    background-color: #1D1D1B !important;
+}
+.backgBlanco {
+    background-color: #F2F2F2 !important;
+}
+.backgGris {
+    background-color: #666666 !important;
+}
+.backgGrisClaro {
+    background-color: #B3B3B3 !important;
+}
+
+.banner {
+    background-image: url('./../assets/banner.png');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+}
+
+.perfil {
+    border-radius: 50% !important;
+    width: 210px !important;
+    height: 200px !important;
+    margin: auto;
+    object-fit: cover;
+    object-position: right;
+    margin-top: 30px;
+}
+.perfilIzquierdo {
+    border-radius: 50% !important;
+    width: 150px !important;
+    height: 140px !important;
+    margin: auto;
+    object-fit: cover;
+    object-position: right;
+}
+.expLaboral ul  {
+    list-style: none;
+}
+.vRotate {
+    transform: rotate(180deg);
+}
+/*Bootstrap*/
+
+.card {
+    border: none !important;
+    background-color: #F2F2F2 !important;
+    top: -140px !important;
+}
+.mbp > p {
+    margin-bottom: 0 !important;
+}
