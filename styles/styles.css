@@ -85,6 +85,9 @@ Gris claro
     object-position: right;
     margin-top: 30px;
 }
+.logo {
+    width: 100px;
+}
 .perfilIzquierdo {
     border-radius: 50% !important;
     width: 150px !important;
